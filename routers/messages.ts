@@ -12,7 +12,6 @@ messagesRouter.get('/:id', async (req, res) => {
 
 messagesRouter.post('/', async (req, res) => {
   res.send('отправка сообщений.');
-  console.log(req.body);
 });
 
 export default messagesRouter;
